@@ -1,0 +1,16 @@
+id: 78x2cyzwz94y4whrh3mdwx44z9h87q3q5tha59pvxdrlo0br
+name: ziggy
+main: src/main.zig
+license: MIT License
+description: Ziggy
+dependencies:
+
+  - src: git https://github.com/zigimg/zigimg
+
+  - src: git https://github.com/onebsv1/zitertools
+    name: zitertools
+    main: src/main.zig
+
+  - src: git https://github.com/kooparse/zalgebra
+    name: zalgebra
+    main: src/main.zig
